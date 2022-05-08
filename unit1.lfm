@@ -1,0 +1,35 @@
+object Form1: TForm1
+  Left = 1017
+  Height = 371
+  Top = 208
+  Width = 687
+  Caption = 'Form1'
+  ClientHeight = 351
+  ClientWidth = 687
+  Menu = MainMenu1
+  LCLVersion = '2.0.12.0'
+  object lb: TListBox
+    Left = 40
+    Height = 88
+    Top = 16
+    Width = 624
+    ItemHeight = 0
+    TabOrder = 0
+  end
+  object od: TOpenDialog
+    Left = 120
+    Top = 280
+  end
+  object MainMenu1: TMainMenu
+    Left = 208
+    Top = 280
+    object mi: TMenuItem
+      Caption = 'Z'
+      OnClick = miClick
+    end
+    object V: TMenuItem
+      Caption = 'V'
+      OnClick = VClick
+    end
+  end
+end
